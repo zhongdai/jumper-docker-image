@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: jumper-pod
 spec:
+  serviceAccountName: default
   containers:
   - name: jumper-container
     image: zhongdai/jumper:latest

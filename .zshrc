@@ -11,3 +11,4 @@ compinit
 # Aliases
 alias ll='ls -la'
 alias vi='nvim'
+alias k='kubectl'
